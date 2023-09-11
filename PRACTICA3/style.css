@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(254,254,254,.09),
+        rgba(135,47,236,0.4)
+    );
+
+}
+
+button{
+    padding: 10px;
+    background-color: aliceblue;
+    color: aqua;
+    border: none;
+    text-transform: uppercase;
+
+}

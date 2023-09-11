@@ -1,0 +1,79 @@
+
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0d1b2a;
+}
+
+.header {
+  padding: 20px;
+  background-color: #0d1b2a;
+  color: black;
+}
+
+.header-title {
+  text-align: center;
+  color: white;
+
+}
+.header-subtitle {
+  text-align: center;
+  color: white;
+  
+}
+
+#tablaInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+  grid-gap: 20px; 
+  justify-content: center; 
+  align-content: center; 
+}
+
+.item-container {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  background-color: #1b263b; 
+  width: 100%; 
+}
+
+
+.item-container img {
+  max-width: 95%; 
+}
+
+
+.item-container h2 {
+  color: white;
+  text-align: center;
+  background-color: #1b263b;
+  font-size: 18px; 
+  margin: 10px 0; 
+}
+
+
+.item-container p {
+  color: white;
+  background-color: #1b263b;
+  font-size: 14px; 
+}
+
+.boton {
+  
+  background-color: #2a6f97;
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  display: block;
+  margin: 0 auto;
+
+}
+
+/* Estilos adicionales para el botón al pasar el mouse sobre él */
+.boton:hover {
+  background-color: #ccc; /* Cambiar el color de fondo al pasar el mouse */
+}

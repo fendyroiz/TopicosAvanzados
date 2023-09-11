@@ -1,0 +1,75 @@
+html{
+    background-color: #e0e2db;
+    font-size: 62.5%;
+}
+
+
+body{
+    
+    box-sizing: border-box;
+    border: 0cm;
+    margin: 0;
+}
+
+h2.center{
+    text-align: center;
+}
+
+.avatar {
+
+    margin-left: 85px;
+    margin-top: 40px;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    flex: auto;
+}
+
+
+.grid-layout{
+
+    background-color: #5f7470;
+    height: 900px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:15% auto auto;
+}
+.cabeza{
+    background-color: #5f7470;
+    margin-block-start: 10px;
+    margin-left: -50px;
+    grid-column: 2/3;
+    
+}
+.izquierda{
+
+    grid-row: 1/3;
+    background-color: #b8bdb5;
+    margin-left: 25px;
+    margin-inline-end: 70px;
+    margin-top: 25px;
+    
+
+}
+.derecha{
+    background-color: #d2d4c8;
+    margin-left: -50px;
+    margin-top: 70px;
+    margin-right: 25px;
+
+}
+.nombre{
+    
+    border: 3px solid #e0e2db;
+    margin-top: 45px;
+    margin-right: 70px;
+    float: right;
+    background-color: #5f7470;
+}
